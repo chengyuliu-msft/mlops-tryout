@@ -27,7 +27,7 @@ resources:
   repositories:
     - repository: mlops-templates
       name: Azure/mlops-templates
-      endpoint: github-connection
+      endpoint: sc-github-chengyuliu-msft-pat
       type: github
       ref: main #branch name
 
