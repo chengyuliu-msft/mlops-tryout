@@ -18,7 +18,9 @@ parameters:
   default: "ThisIsNotVerySecure!"
 
 trigger:
-- none
+- main
+- develop
+- feature-*
 
 pool:
   vmImage: $(ap_vm_image)
